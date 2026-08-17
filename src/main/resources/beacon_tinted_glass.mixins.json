@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.azyrod.beacon_tinted_glass.mixins",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "BeaconBlockEntityMixin"
+  ],
+  "client": [
+    "BeaconRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

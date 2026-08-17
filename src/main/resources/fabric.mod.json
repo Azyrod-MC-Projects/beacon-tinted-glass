@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "beacon_tinted_glass",
+  "version": "${version}",
+  "name": "Beacon Tinted Glass",
+  "description": "Allows players to hide the beacon beam with tinted glass",
+  "authors": ["Azyrod"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/beacon-tinted-glass",
+    "sources": "https://github.com/Azyrod-MC-Projects/beacon-tinted-glass",
+    "issues": "https://github.com/Azyrod-MC-Projects/beacon-tinted-glass/issues"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/beacon_tinted_glass/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.azyrod.beacon_tinted_glass.BeaconTintedGlass"
+    ],
+    "modmenu": [
+      "net.azyrod.beacon_tinted_glass.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "beacon_tinted_glass.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${loader_version}",
+    "yet_another_config_lib_v3": ">=${yacl_version}"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "yacl3.config.beacon_tinted_glass:config.category.general": "General",
+  "yacl3.config.beacon_tinted_glass:config.tintedGlassMode": "Tinted Glass Mode",
+  "yacl3.config.enum.TintedGlassMode.block_once": "Block Once",
+  "yacl3.config.enum.TintedGlassMode.toggle": "Toggle",
+  "yacl3.config.enum.TintedGlassMode.block_forever": "Block Forever"
+}
